@@ -4,7 +4,7 @@ document.querySelector('.update').addEventListener("click",()=>{
     console.log(email);
 })
 
-if(email!=""){
+if(email=""){
     document.querySelector('.first').style.display='none';
     document.querySelector('.success').style.display='block';
 
