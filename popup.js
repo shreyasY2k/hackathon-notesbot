@@ -27,7 +27,7 @@ document.querySelector('.update').addEventListener("click",()=>{
         console.log(this.responseText);
     }
     });
-    xhr.open("POST", ""); //server link to be put. Nithin do this
+    xhr.open("POST", "https://nithins.me/nbot/summaryBot/update.php");
 
     xhr.send(data);
 })
