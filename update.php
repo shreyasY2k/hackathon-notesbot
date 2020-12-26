@@ -4,9 +4,9 @@
 
     if($_POST["email"]){
         $servername = "localhost";
-        $username = "beka ivella";
-        $password = "beka ivella";
-        $dbname = "beka ivella";
+        $username = "root";
+        $password = "";
+        $dbname = "data";
         $conn = new mysqli($servername, $username, $password, $dbname);
 
         if ($conn->connect_error) {
