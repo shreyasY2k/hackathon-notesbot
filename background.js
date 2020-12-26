@@ -11,9 +11,9 @@ notifOptionsStop = {
     title: "Your notes have been sent over email",
     message: "Notes have been successfully sent over to your email"
 }
-chrome.storage.sync.get(['nithinSummaryBot'], function(result){
-    if(result && result['nithinSummaryBot']){
-        betaEmail = result['nithinSummaryBot']['email'];
+chrome.storage.sync.get(['summaryBot'], function(result){
+    if(result && result['summaryBot']){
+        betaEmail = result['summaryBot']['email'];
         notifOptionsStop = {
             type: "basic",
             iconUrl: "icon.png",
