@@ -11,10 +11,40 @@
         }
         .head{
             background-color: #007bff;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            margin-top: 20px;
         }
+
     </style>
 </head>
 <body>
-    
+    <div class="head">
+        Notes Bot for Online Classes<br>
+        <div class="subhead">Listen - Summarise - Generate notes</div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <ul>
+                <li>Enter your email ID to get your Notes</li>
+                <li>Press the start/stop button to activate the bot</li>
+                <li>You'll get the notes of the whole recording on your given email address after the recording ends</li>
+            </ul>
+        </div>
+        <form  autocomplete="on" id="myForm">
+            <div class="form-row">
+                <div class="col input-group">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Your email ID</span>
+                    </div>
+                    <input type="text" class="form-control betaEmail" name="betaEmail" placeholder="Email id to receive notes" required>
+                </div>
+            </div><br>
+        </form>
+        <button type="button" class="btn btn-primary btn-lg btn-block m-10 update">Update</button><br>
+    </div>
 </body>
 </html>
