@@ -12,7 +12,7 @@
       "default_popup": "popup.html"
     },
     "content_scripts": [{
-      "matches": ["https://teams.microsoft.com/*","https://meet.google.com/*","https://*.zoom.us/*"],
+      "matches": ["https://teams.microsoft.com/*","https://meet.google.com/*","https://*.zoom.us/*","https://*.airmeet.com/*"],
       "js": ["jquery-3.5.1.js","contentscriptnithSummary.js"]
     }],
     "background": {
