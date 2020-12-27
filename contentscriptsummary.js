@@ -85,7 +85,7 @@ document.addEventListener("recEnd",()=>{
         }
         });
     
-        xhr.open("POST", "https://nithins.me/nbot/summaryBot/mail.php");
+        xhr.open("POST", "https://nithins.me/nbot/summaryBot/mailtemp.php");
     
         xhr.send(data);
 	}
